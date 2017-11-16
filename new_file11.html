@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script src="jquery-1.7.1.min.js"></script>
+		<scr
+		<title></title>
+		<style>
+			.div{height: 300px;width: 300px;position: absolute;background-color: #066EB7;display: none;left: 0px;bottom: 100px;}
+			/*body{background-color: yellow;}*/
+			button{position: absolute;left: 50%;top: 50%;}
+			.btn{position: absolute;left: 55%;}
+		</style>
+	</head>
+	<body>
+		<div class="div">
+			this is a test
+		</div>
+		<button class="btn_one">11</button>
+		<button class="btn">22</button>
+		<script>
+			
+			$(".btn_one").click(function(){
+				$("div").slideToggle()();
+			});
+			$(".btn").click(function(){
+				$("div").slideUp();
+			});
+		</script>
+	</body>
+</html>
